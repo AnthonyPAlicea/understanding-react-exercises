@@ -8,3 +8,25 @@
 .card {
   padding: 2em;
 }
+
+/* Add styles for the boxes */
+.box-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+}
+
+.box-red {
+  background-color: #ff4444;
+}
+
+.box-blue {
+  background-color: #4444ff;
+}
